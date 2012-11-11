@@ -1,0 +1,6 @@
+*.swp
+mana.db
+manaserv.xml
+manaserv-account.log
+manaserv-game.log
+manaserv.stats

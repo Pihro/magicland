@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+    This file maps the NPC appearance IDs the server is sending to the spritesheet(s).
+
+    Note that it is possible to give an NPC multiple sprites. In this case the
+    sprites are drawn in order of declaration.
+-->
+<npcs>
+  <npc id="1"><sprite>npcs/chest.xml</sprite></npc><!-- Chest -->
+  <npc id="2"><sprite variant="54">npcs/npc.xml</sprite></npc><!-- Old woman -->
+</npcs>
