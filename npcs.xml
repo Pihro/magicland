@@ -6,6 +6,6 @@
     sprites are drawn in order of declaration.
 -->
 <npcs>
-  <npc id="1"><sprite>npcs/chest.xml</sprite></npc><!-- Chest -->
-  <npc id="2"><sprite variant="54">npcs/npc.xml</sprite></npc><!-- Old woman -->
+  <npc id="1"><sprite>npcs/chest.xml</sprite></npc>
+  <npc id="2"><sprite>npcs/old_woman.xml</sprite></npc>
 </npcs>
