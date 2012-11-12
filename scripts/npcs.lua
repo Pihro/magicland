@@ -2,6 +2,7 @@ npc = {}
 
 local npcs = {
     "chest",
+    "Liana",
     "old_woman",
 }
 

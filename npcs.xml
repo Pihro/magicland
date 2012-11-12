@@ -6,6 +6,14 @@
     sprites are drawn in order of declaration.
 -->
 <npcs>
-  <npc id="1"><sprite>npcs/chest.xml</sprite></npc>
-  <npc id="2"><sprite>npcs/old_woman.xml</sprite></npc>
+    <npc id="1"><sprite>npcs/chest.xml</sprite></npc><!-- Chest -->
+    <npc id="2"><!-- Liana -->
+        <sprite>races/human/female.xml</sprite>
+        <sprite>races/human/hairstyles/flat_ponytail.xml|#347235,52D017</sprite>
+        <sprite>equipment/head/goggles.xml</sprite>
+        <sprite>equipment/legs/skirt.xml|#d3b79e,ffffff</sprite>
+        <sprite>equipment/chest/tanktop_female.xml|#d3b79e,ffffff</sprite>
+        <sprite>equipment/feet/boots_female.xml|#9e7654,ffffff</sprite>
+    </npc>
+    <npc id="3"><sprite>npcs/old_woman.xml</sprite></npc><!-- Old woman -->
 </npcs>
