@@ -40,8 +40,6 @@ atinit(function()
     local function out(being, _)
         if being_type(being) == TYPE_CHARACTER then
             chr_request_quest(being, "tutorial_door", function() end)
-            -- Don't let players out before Tulimshar suburbs map is really ready
-            chr_set_quest(being, "tutorial_door", "can not out")
             if chr_try_get_quest(being, "tutorial_door") == "can out" then
                 char_warp(being, "Tulimshar_suburbs", 63.5 * TILESIZE, 77 * TILESIZE)
             else
