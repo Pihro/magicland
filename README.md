@@ -1,4 +1,4 @@
-= Magic Land
+# Magic Land
 
 Magic Land is an attempt to convert [TMW][] code to based on Manaserv,
 but don't intent to be thorouly identical.
