@@ -50,4 +50,7 @@ atinit(function()
     end
     trigger_create(44 * TILESIZE, 31 * TILESIZE, TILESIZE, TILESIZE, out, 0,
                    true)
+
+    npc_create("Tanisha", npc.little_blue_haired_girl, GENDER_FEMALE,
+               37.5 * TILESIZE, 90.5 * TILESIZE, nil)
 end)

@@ -15,5 +15,6 @@
         <sprite>equipment/chest/tanktop_female.xml|#d3b79e,ffffff</sprite>
         <sprite>equipment/feet/boots_female.xml|#9e7654,ffffff</sprite>
     </npc>
-    <npc id="3"><sprite>npcs/old_woman.xml</sprite></npc><!-- Old woman -->
+    <npc id="3"><sprite>npcs/little_blue_haired_girl.xml</sprite></npc><!-- Little blue haired girl -->
+    <npc id="4"><sprite>npcs/old_woman.xml</sprite></npc><!-- Old woman -->
 </npcs>
