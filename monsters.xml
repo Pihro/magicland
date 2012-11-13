@@ -6,12 +6,12 @@
         <sound event="hit">monsters/maggot/hit2.ogg</sound>
         <sound event="miss">monsters/maggot/miss1.ogg</sound>
         <sound event="die">monsters/maggot/dying1.ogg</sound>
-        <drop item="Maggot slime" percent="8"/>
-        <drop item="Cactus drink" percent="1.5"/>
         <drop item="Bug leg" percent="4" />
-        <drop item="Roasted maggot" percent="1.5" /><!--
-        <drop item="502" percent="0.7" />
-        <drop item="522" percent="0.1" />-->
+        <drop item="Cactus drink" percent="1.5"/>
+        <drop item="Cactus potion" percent="0.7" />
+        <drop item="Maggot slime" percent="8"/>
+        <drop item="Roasted maggot" percent="1.5" />
+        <drop item="Sharp knife" percent="0.1" />
         <attributes
             hp="50"
             size="4"
