@@ -103,4 +103,8 @@
             <consumes />
         </effect>
     </item>
+
+    <item id="5" max-per-slot="99" name="Bug leg"
+        description="A bug's leg. Mostly used for alchemy."
+        image="generic/bug_leg.png" type="generic" weight="1" />
 </items>
