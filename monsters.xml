@@ -6,10 +6,14 @@
         <sound event="hit">monsters/maggot/hit2.ogg</sound>
         <sound event="miss">monsters/maggot/miss1.ogg</sound>
         <sound event="die">monsters/maggot/dying1.ogg</sound>
-        <drop item="1" percent="50"/>
-        <drop item="2" percent="15"/>
+        <drop item="Maggot slime" percent="8"/><!--
+        <drop item="501" percent="1.5"/>
+        <drop item="518" percent="4" />
+        <drop item="533" percent="1.5" />
+        <drop item="502" percent="0.7" />
+        <drop item="522" percent="0.1" />-->
         <attributes
-            hp="20"
+            hp="50"
             size="4"
             speed="2.0"
             attack-min="10"
@@ -24,7 +28,7 @@
             />
         <vulnerability element="fire" factor="1.5"/>
         <vulnerability element="earth" factor="0.7"/>
-        <exp>10</exp>
+        <exp>6</exp>
         <!-- average stroll- and track range-->
         <behavior
             aggressive="false"
@@ -43,7 +47,7 @@
             animation="attack"
             script-event="strike"
             />
-            <script>testmonster.lua</script> <!-- only Proof of Concept-->
+        <script>testmonster.lua</script> <!-- only Proof of Concept-->
     </monster>
 
     <monster id="2" name="Scorpion">

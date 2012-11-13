@@ -58,7 +58,7 @@
 
     <item id="1" max-per-slot="1" name="Cotton shirt"
         description="A shirt made of 100% cotton."
-        image="equipment/chest/cottonshirt.png|W:#a4b2b2,ffffff"
+        image="equipment/chest/cotton_shirt.png|W:#a4b2b2,ffffff"
         weight="13">
         <equip>
             <slot type="torso" required="1" />
@@ -90,4 +90,7 @@
         </effect>
         <sprite>equipment/weapon/dagger.xml</sprite>
     </item>
+
+    <item id="3" name="Maggot slime" description="Slimy maggot slime."
+        image="generic/maggot_slime.png" weight="1" />
 </items>
