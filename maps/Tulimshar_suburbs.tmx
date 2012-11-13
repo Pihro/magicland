@@ -2,7 +2,7 @@
 <map version="1.0" orientation="orthogonal" width="160" height="170" tilewidth="32" tileheight="32">
  <properties>
   <property name="music" value="The Mana World - Peace.ogg"/>
-  <property name="name" value="Tulimshar Suburbs"/>
+  <property name="name" value="Tulimshar suburbs"/>
  </properties>
  <tileset firstgid="1" source="../tilesets/collision.tsx"/>
  <tileset firstgid="3" source="../tilesets/desert1.tsx"/>
@@ -76,10 +76,9 @@
   </object>
   <object name="Maggot" type="spawn" x="1672" y="2620" width="917" height="524">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="7"/>
-    <property name="monster_id" value="0"/>
+    <property name="monster_id" value="Maggot"/>
+    <property name="spawn_rate" value="10"/>
    </properties>
   </object>
   <object name="Black Scorpion" type="spawn" x="2194" y="3925" width="1818" height="394">
