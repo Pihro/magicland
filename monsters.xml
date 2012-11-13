@@ -6,8 +6,8 @@
         <sound event="hit">monsters/maggot/hit2.ogg</sound>
         <sound event="miss">monsters/maggot/miss1.ogg</sound>
         <sound event="die">monsters/maggot/dying1.ogg</sound>
-        <drop item="Maggot slime" percent="8"/><!--
-        <drop item="501" percent="1.5"/>
+        <drop item="Maggot slime" percent="8"/>
+        <drop item="Cactus drink" percent="1.5"/><!--
         <drop item="518" percent="4" />
         <drop item="533" percent="1.5" />
         <drop item="502" percent="0.7" />

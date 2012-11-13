@@ -91,6 +91,16 @@
         <sprite>equipment/weapon/dagger.xml</sprite>
     </item>
 
-    <item id="3" name="Maggot slime" description="Slimy maggot slime."
-        image="generic/maggot_slime.png" weight="1" />
+    <item id="3" max-per-slot="99" name="Maggot slime"
+        description="Slimy maggot slime." image="generic/maggot_slime.png"
+        weight="1" />
+
+    <item id="4" max-per-slot="99" name="Cactus drink"
+        description="A fresh drink." image="use/potions/tiny.png|G:#22ff22"
+        type="usable" hp="15" weight="4" tag="Potions">
+        <effect trigger="activation">
+            <scriptevent activate="use" />
+            <consumes />
+        </effect>
+    </item>
 </items>
