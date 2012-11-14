@@ -125,7 +125,7 @@
 
     <item id="8" max-per-slot="1" name="Sharp knife" attack-action="attack"
         description="A really sharp knife. Don't hurt yourself!"
-        image="equipment/weapon/sharp_knife.png"
+        image="equipment/weapon/dagger/sharp_knife.png"
         weapon-type="knife"
         weight="150">
         <equip>
