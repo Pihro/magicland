@@ -11,7 +11,6 @@ atinit(function()
 
     local function welcome(being, _)
         if being_type(being) == TYPE_CHARACTER then
-            chr_request_quest(being, "tutorial_progress", function() end)
             if chr_try_get_quest(being, "tutorial_progress") == "" then
                 being_say(sorfina, "Ah, you woke up. Come here...")
             end
@@ -23,7 +22,6 @@ atinit(function()
 
     local function step_on_carpet(being, _)
         if being_type(being) == TYPE_CHARACTER then
-            chr_request_quest(being, "tutorial_progress", function() end)
             if chr_try_get_quest(being,
                                  "tutorial_progress") == "walk to carpet" then
                 being_say(sorfina, "Very good! Come here again...")
@@ -39,7 +37,6 @@ atinit(function()
 
     local function out(being, _)
         if being_type(being) == TYPE_CHARACTER then
-            chr_request_quest(being, "tutorial_door", function() end)
             if chr_try_get_quest(being, "tutorial_door") == "can out" then
                 chr_warp(being, "Tulimshar_suburbs", 63.5 * TILESIZE, 77 * TILESIZE)
             else
