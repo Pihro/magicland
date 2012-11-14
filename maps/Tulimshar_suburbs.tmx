@@ -69,7 +69,7 @@
   </object>
   <object name="Maggot" type="spawn" x="2742" y="2898" width="1026" height="534">
    <properties>
-    <property name="max_beings" value="100"/>
+    <property name="max_beings" value="5"/>
     <property name="monster_id" value="Maggot"/>
     <property name="spawn_rate" value="10"/>
    </properties>
