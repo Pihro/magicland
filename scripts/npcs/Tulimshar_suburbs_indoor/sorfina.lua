@@ -74,6 +74,7 @@ local function introduction(npc, ch)
             chr_inv_change(ch, "Knife", 1)
             chr_inv_change(ch, "Cotton shirt", 1)
             chr_money_change(ch, 50)
+            chr_set_quest(ch, "tutorial_door", "can out")
             chr_set_quest(ch, "tutorial_progress", "done")
         end
     end
