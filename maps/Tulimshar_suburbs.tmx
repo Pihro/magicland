@@ -81,28 +81,25 @@
     <property name="spawn_rate" value="10"/>
    </properties>
   </object>
-  <object name="Black Scorpion" type="spawn" x="2194" y="3925" width="1818" height="394">
+  <object name="Black scorpion" type="spawn" x="2194" y="3925" width="1818" height="394">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="25"/>
-    <property name="monster_id" value="7"/>
+    <property name="monster_id" value="Black scorpion"/>
+    <property name="spawn_rate" value="10"/>
    </properties>
   </object>
   <object name="Scorpion" type="spawn" x="2236" y="3979" width="1738" height="299">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="10"/>
-    <property name="monster_id" value="1"/>
+    <property name="monster_id" value="Scorpion"/>
+    <property name="spawn_rate" value="10"/>
    </properties>
   </object>
-  <object name="Fire Goblin" type="spawn" x="1327" y="1817" width="1391" height="1654">
+  <object name="Fire goblin" type="spawn" x="1327" y="1817" width="1391" height="1654">
    <properties>
-    <property name="eA_death" value="30000"/>
-    <property name="eA_spawn" value="100000"/>
     <property name="max_beings" value="2"/>
-    <property name="monster_id" value="9"/>
+    <property name="monster_id" value="Fire goblin"/>
+    <property name="spawn_rate" value="10"/>
    </properties>
   </object>
   <object name="Main script" type="SCRIPT" x="2544" y="1552" width="456" height="104">

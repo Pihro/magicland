@@ -47,7 +47,6 @@
             animation="attack"
             script-event="strike"
             />
-        <script>testmonster.lua</script> <!-- only Proof of Concept-->
     </monster>
 
     <monster id="2" name="Scorpion">
