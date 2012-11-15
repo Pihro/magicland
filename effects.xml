@@ -13,6 +13,7 @@
     <!-- Attacks related -->
     <effect id="3" particle="graphics/particles/hit.particle.xml"/>
     <effect id="4" particle="graphics/particles/arrow-hail.xml"/>
+    <effect id="5" particle="graphics/particles/monster/goblin_fire_breath.xml"/>
 
     <!-- Emotion effects -->
     <effect id="10000" particle="graphics/emotes/disgust.xml"/>
